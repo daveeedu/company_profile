@@ -9,7 +9,22 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
- 
+
+.groom{
+    background-color: rgb(231, 229, 225);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    max-width: 100%;
+}
+
+.groom .glow{
+    width: 45%;
+}
+.broad{
+    padding: 50px;
+}
 .h1, h1{
     font-size: 4rem;
 }
