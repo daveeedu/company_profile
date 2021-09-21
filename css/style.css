@@ -58,3 +58,79 @@
     font-size: 6rem;
 }
 
+@media(max-width: 425px){
+    .col h1 {
+        font-size: 50px;
+    } 
+    .img-section{
+        display: grid;
+        padding: 0;
+        
+    }
+    .groom .glow{
+        width: 100%;
+    }
+    .gallery img {
+        width: 270px;
+        height: 230px;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    
+    .img-section .gallery{
+        padding: 20px;
+    }
+    .brown{
+        width: auto;
+    }
+    .glow{
+        padding-left: 30px;
+        
+    }
+    .glow h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .glow p{
+        font-size: 0.9rem;
+    }
+    .glow button{
+        font-size: 0.7rem;
+    }
+}
+
+@media(width: 375px){
+    .gallery img {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media(width: 425px){
+    .gallery img {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media(width: 768px){
+    .col h1 {
+        font-size: 40px;
+    } 
+    .gallery img {
+        width: 150px;
+        height: 100px;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    
+}
+@media(width: 1024px){
+    .col h1 {
+        font-size: 70px;
+    } 
+    .branded{
+        padding-left: 0;
+       
+    }
+}
